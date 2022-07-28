@@ -20,15 +20,16 @@ public class Employee {
     private String lastname;
     @Column(name = "mail")
     private String mail;
-    @CreationTimestamp
+
     @Column(name = "created_at",updatable = false,nullable = false)
+    @CreationTimestamp
     @JsonFormat(pattern="yyyy-MM-dd HH:mm:ss")
     @DateTimeFormat(pattern="yyyy-MM-dd HH:mm:ss")
     private LocalDateTime createdAt;
+    @Column(name = "updated_at")
+    @UpdateTimestamp
     @JsonFormat(pattern="yyyy-MM-dd HH:mm:ss")
     @DateTimeFormat(pattern="yyyy-MM-dd HH:mm:ss")
-    @UpdateTimestamp
-    @Column(name = "updated_at")
     private LocalDateTime updatedAt;
 
     public Employee() {

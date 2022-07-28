@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4b471ff-fe7f-418e-acd4-487f474f629a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c4b471ff-fe7f-418e-acd4-487f474f629a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,7 +100,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/valen/Documents/Mascotas",
+    "last_opened_file_path": "C:/Users/valen/Documents/GitHub/Employees",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
@@ -143,6 +141,13 @@
     </configuration>
     <configuration name="EmployeesApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Employees.Employees.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="co.edu.poli.ces3.Employees.EmployeesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeesApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="co.edu.poli.ces3.Employees.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="co.edu.poli.ces3.Employees.EmployeesApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -244,6 +249,7 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.Employees [bootRun]" />
+      <item itemvalue="Spring Boot.EmployeesApplication (2)" />
       <item itemvalue="Spring Boot.EmployeesApplication" />
       <item itemvalue="Spring Boot.EmployeesApplication (1)" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.81" />
@@ -273,6 +279,7 @@
       <workItem from="1658873979877" duration="13355000" />
       <workItem from="1659020206269" duration="4844000" />
       <workItem from="1659026634727" duration="1877000" />
+      <workItem from="1659028595633" duration="11000" />
     </task>
     <servers />
   </component>
